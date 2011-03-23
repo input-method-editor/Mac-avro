@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FE2E20133979CD0095CCE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FE2E1F133979CD0095CCE5 /* Cocoa.framework */; };
+		27FE2E2A133979CD0095CCE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27FE2E28133979CD0095CCE5 /* InfoPlist.strings */; };
+		27FE2E2D133979CD0095CCE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE2E2C133979CD0095CCE5 /* main.m */; };
+		27FE2E30133979CD0095CCE5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 27FE2E2E133979CD0095CCE5 /* Credits.rtf */; };
+		27FE2E33133979CD0095CCE5 /* Bangla_onkurAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE2E32133979CD0095CCE5 /* Bangla_onkurAppDelegate.m */; };
+		27FE2E36133979CD0095CCE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FE2E34133979CD0095CCE5 /* MainMenu.xib */; };
+		27FE2E3D133979CE0095CCE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FE2E1F133979CD0095CCE5 /* Cocoa.framework */; };
+		27FE2E45133979CE0095CCE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27FE2E43133979CE0095CCE5 /* InfoPlist.strings */; };
+		27FE2E48133979CE0095CCE5 /* Bangla_onkurTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 27FE2E47133979CE0095CCE5 /* Bangla_onkurTests.h */; };
+		27FE2E4A133979CE0095CCE5 /* Bangla_onkurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE2E49133979CE0095CCE5 /* Bangla_onkurTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27FE2E3E133979CE0095CCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FE2E12133979CC0095CCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FE2E1A133979CD0095CCE5;
+			remoteInfo = "Bangla-onkur";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27FE2E1B133979CD0095CCE5 /* Bangla-onkur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bangla-onkur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FE2E1F133979CD0095CCE5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		27FE2E22133979CD0095CCE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		27FE2E23133979CD0095CCE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		27FE2E24133979CD0095CCE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27FE2E27133979CD0095CCE5 /* Bangla-onkur-Info.plist */ = {isa = PBXFileReference; path = "Bangla-onkur-Info.plist"; sourceTree = "<group>"; };
+		27FE2E29133979CD0095CCE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27FE2E2B133979CD0095CCE5 /* Bangla-onkur-Prefix.pch */ = {isa = PBXFileReference; path = "Bangla-onkur-Prefix.pch"; sourceTree = "<group>"; };
+		27FE2E2C133979CD0095CCE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27FE2E2F133979CD0095CCE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		27FE2E31133979CD0095CCE5 /* Bangla_onkurAppDelegate.h */ = {isa = PBXFileReference; path = Bangla_onkurAppDelegate.h; sourceTree = "<group>"; };
+		27FE2E32133979CD0095CCE5 /* Bangla_onkurAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bangla_onkurAppDelegate.m; sourceTree = "<group>"; };
+		27FE2E35133979CD0095CCE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		27FE2E3C133979CE0095CCE5 /* Bangla-onkurTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bangla-onkurTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FE2E42133979CE0095CCE5 /* Bangla-onkurTests-Info.plist */ = {isa = PBXFileReference; path = "Bangla-onkurTests-Info.plist"; sourceTree = "<group>"; };
+		27FE2E44133979CE0095CCE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27FE2E46133979CE0095CCE5 /* Bangla-onkurTests-Prefix.pch */ = {isa = PBXFileReference; path = "Bangla-onkurTests-Prefix.pch"; sourceTree = "<group>"; };
+		27FE2E47133979CE0095CCE5 /* Bangla_onkurTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bangla_onkurTests.h; sourceTree = "<group>"; };
+		27FE2E49133979CE0095CCE5 /* Bangla_onkurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bangla_onkurTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FE2E18133979CD0095CCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE2E20133979CD0095CCE5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE2E38133979CE0095CCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE2E3D133979CE0095CCE5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FE2E10133979CC0095CCE5 = {
+			isa = PBXGroup;
+			children = (
+				27FE2E25133979CD0095CCE5 /* Bangla-onkur */,
+				27FE2E40133979CE0095CCE5 /* Bangla-onkurTests */,
+				27FE2E1E133979CD0095CCE5 /* Frameworks */,
+				27FE2E1C133979CD0095CCE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27FE2E1C133979CD0095CCE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E1B133979CD0095CCE5 /* Bangla-onkur.app */,
+				27FE2E3C133979CE0095CCE5 /* Bangla-onkurTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FE2E1E133979CD0095CCE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E1F133979CD0095CCE5 /* Cocoa.framework */,
+				27FE2E21133979CD0095CCE5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27FE2E21133979CD0095CCE5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E22133979CD0095CCE5 /* AppKit.framework */,
+				27FE2E23133979CD0095CCE5 /* CoreData.framework */,
+				27FE2E24133979CD0095CCE5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		27FE2E25133979CD0095CCE5 /* Bangla-onkur */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E31133979CD0095CCE5 /* Bangla_onkurAppDelegate.h */,
+				27FE2E32133979CD0095CCE5 /* Bangla_onkurAppDelegate.m */,
+				27FE2E34133979CD0095CCE5 /* MainMenu.xib */,
+				27FE2E26133979CD0095CCE5 /* Supporting Files */,
+			);
+			path = "Bangla-onkur";
+			sourceTree = "<group>";
+		};
+		27FE2E26133979CD0095CCE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E27133979CD0095CCE5 /* Bangla-onkur-Info.plist */,
+				27FE2E28133979CD0095CCE5 /* InfoPlist.strings */,
+				27FE2E2B133979CD0095CCE5 /* Bangla-onkur-Prefix.pch */,
+				27FE2E2C133979CD0095CCE5 /* main.m */,
+				27FE2E2E133979CD0095CCE5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27FE2E40133979CE0095CCE5 /* Bangla-onkurTests */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E47133979CE0095CCE5 /* Bangla_onkurTests.h */,
+				27FE2E49133979CE0095CCE5 /* Bangla_onkurTests.m */,
+				27FE2E41133979CE0095CCE5 /* Supporting Files */,
+			);
+			path = "Bangla-onkurTests";
+			sourceTree = "<group>";
+		};
+		27FE2E41133979CE0095CCE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E42133979CE0095CCE5 /* Bangla-onkurTests-Info.plist */,
+				27FE2E43133979CE0095CCE5 /* InfoPlist.strings */,
+				27FE2E46133979CE0095CCE5 /* Bangla-onkurTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FE2E1A133979CD0095CCE5 /* Bangla-onkur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FE2E4D133979CE0095CCE5 /* Build configuration list for PBXNativeTarget "Bangla-onkur" */;
+			buildPhases = (
+				27FE2E17133979CD0095CCE5 /* Sources */,
+				27FE2E18133979CD0095CCE5 /* Frameworks */,
+				27FE2E19133979CD0095CCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bangla-onkur";
+			productName = "Bangla-onkur";
+			productReference = 27FE2E1B133979CD0095CCE5 /* Bangla-onkur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27FE2E3B133979CE0095CCE5 /* Bangla-onkurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FE2E50133979CE0095CCE5 /* Build configuration list for PBXNativeTarget "Bangla-onkurTests" */;
+			buildPhases = (
+				27FE2E37133979CE0095CCE5 /* Sources */,
+				27FE2E38133979CE0095CCE5 /* Frameworks */,
+				27FE2E39133979CE0095CCE5 /* Resources */,
+				27FE2E3A133979CE0095CCE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FE2E3F133979CE0095CCE5 /* PBXTargetDependency */,
+			);
+			name = "Bangla-onkurTests";
+			productName = "Bangla-onkurTests";
+			productReference = 27FE2E3C133979CE0095CCE5 /* Bangla-onkurTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FE2E12133979CC0095CCE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "City University London";
+			};
+			buildConfigurationList = 27FE2E15133979CC0095CCE5 /* Build configuration list for PBXProject "Bangla-onkur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27FE2E10133979CC0095CCE5;
+			productRefGroup = 27FE2E1C133979CD0095CCE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FE2E1A133979CD0095CCE5 /* Bangla-onkur */,
+				27FE2E3B133979CE0095CCE5 /* Bangla-onkurTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FE2E19133979CD0095CCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE2E2A133979CD0095CCE5 /* InfoPlist.strings in Resources */,
+				27FE2E30133979CD0095CCE5 /* Credits.rtf in Resources */,
+				27FE2E36133979CD0095CCE5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE2E39133979CE0095CCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE2E45133979CE0095CCE5 /* InfoPlist.strings in Resources */,
+				27FE2E48133979CE0095CCE5 /* Bangla_onkurTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27FE2E3A133979CE0095CCE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FE2E17133979CD0095CCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE2E2D133979CD0095CCE5 /* main.m in Sources */,
+				27FE2E33133979CD0095CCE5 /* Bangla_onkurAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE2E37133979CE0095CCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE2E4A133979CE0095CCE5 /* Bangla_onkurTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27FE2E3F133979CE0095CCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FE2E1A133979CD0095CCE5 /* Bangla-onkur */;
+			targetProxy = 27FE2E3E133979CE0095CCE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27FE2E28133979CD0095CCE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FE2E29133979CD0095CCE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27FE2E2E133979CD0095CCE5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FE2E2F133979CD0095CCE5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		27FE2E34133979CD0095CCE5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FE2E35133979CD0095CCE5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		27FE2E43133979CE0095CCE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FE2E44133979CE0095CCE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27FE2E4B133979CE0095CCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		27FE2E4C133979CE0095CCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27FE2E4E133979CE0095CCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bangla-onkur/Bangla-onkur-Prefix.pch";
+				INFOPLIST_FILE = "Bangla-onkur/Bangla-onkur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27FE2E4F133979CE0095CCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bangla-onkur/Bangla-onkur-Prefix.pch";
+				INFOPLIST_FILE = "Bangla-onkur/Bangla-onkur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27FE2E51133979CE0095CCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bangla-onkur.app/Contents/MacOS/Bangla-onkur";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bangla-onkurTests/Bangla-onkurTests-Prefix.pch";
+				INFOPLIST_FILE = "Bangla-onkurTests/Bangla-onkurTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27FE2E52133979CE0095CCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bangla-onkur.app/Contents/MacOS/Bangla-onkur";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bangla-onkurTests/Bangla-onkurTests-Prefix.pch";
+				INFOPLIST_FILE = "Bangla-onkurTests/Bangla-onkurTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FE2E15133979CC0095CCE5 /* Build configuration list for PBXProject "Bangla-onkur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FE2E4B133979CE0095CCE5 /* Debug */,
+				27FE2E4C133979CE0095CCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FE2E4D133979CE0095CCE5 /* Build configuration list for PBXNativeTarget "Bangla-onkur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FE2E4E133979CE0095CCE5 /* Debug */,
+				27FE2E4F133979CE0095CCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27FE2E50133979CE0095CCE5 /* Build configuration list for PBXNativeTarget "Bangla-onkurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FE2E51133979CE0095CCE5 /* Debug */,
+				27FE2E52133979CE0095CCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FE2E12133979CC0095CCE5 /* Project object */;
+}
