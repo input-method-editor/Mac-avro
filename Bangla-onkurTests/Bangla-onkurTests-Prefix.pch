@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'Bangla-onkurTests' target in the 'Bangla-onkurTests' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif

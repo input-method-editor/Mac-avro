@@ -1,9 +1,14 @@
-/* Localized versions of Info.plist keys */
+//
+//  RKCandidate.h
+//  Input Method Tester
+//
+//  Created by S. M. Raiyan Kabir on 05/11/2010.
+//
 
 /*
  The MIT License
  
- Copyright (c) 2011 S. M. Raiyan Kabir
+ Copyright (c) 2010 S. M. Raiyan Kabir
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -24,14 +29,39 @@
  THE SOFTWARE.
  */
 
-NSHumanReadableCopyright = "© S. M. Raiyan Kabir., 2011";
+#import <Cocoa/Cocoa.h>
+#import "RKBorderlessPanel.h"
 
-/* Include your mode strings here.  See TN2128 for details. */
+@interface RKCandidate : NSWindowController {
 
-com.onkur.inputmethod.nostyle = "No Style";
+	IBOutlet NSTableView		*candidateOptions;
+	IBOutlet RKBorderlessPanel	*candidatePanel;
+	
+	id							_client;
+	
+	NSArray						*optionsArray;
+	
+	NSMutableIndexSet			*selectionIndex;
+	
+	BOOL						shouldSetFont;
+	
+	NSFont						*candidateFont;
+	
+}
 
+- (id) initWithClient:(id) client;
 
-CFBundleName = "Bangla - অঙ্কুর";
-CFBundleDisplayName = "Bangla - অঙ্কুর";
-CFBundleShortVersionString = "Bangla - অঙ্কুর version 1.0 build 31";
-CFBundleGetInfoString = "Bangla - অঙ্কুর version 1.0 build 31, Copyright 2011, S. M. Raiyan Kabir.";
+//- (void) show;
+- (void) hide;
+- (void) updateCandidate;
+- (void) updateCandidatePosition;
+- (void) setCandidate;
+
+- (NSInteger) selectedCandidateIndex;
+
+- (void) moveSelectionUpward;
+- (void) moveSelectionDownward;
+
+- (void) reset;
+
+@end

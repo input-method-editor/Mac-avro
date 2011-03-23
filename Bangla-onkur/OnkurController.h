@@ -1,5 +1,5 @@
 //
-//  main.m
+//  OnkurController.h
 //  Bangla - Onkur
 //
 //  Created by S. M. Raiyan Kabir on 23/01/2011.
@@ -32,36 +32,58 @@
 #import <Cocoa/Cocoa.h>
 #import <InputMethodKit/InputMethodKit.h>
 
-//Each input method needs a unique connection name. 
-//Note that periods and spaces are not allowed in the connection name.
-const NSString* kConnectionName = @"Onkur_Connection";
+@class BanglaPhoneticEngine;
+@class RKCandidate;
 
-//let this be a global so our application controller delegate can access it easily
-IMKServer*			server;
-//IMKCandidates*		candidates = nil;
+enum {
+	RKUpward = 1,
+	RKDownward = 2
+};
+typedef NSInteger RKCandidateDirection;
 
-int main(int argc, char *argv[])
-{
-    
-    NSString*       identifier;
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+@interface OnkurController : IMKInputController {
+
+	BanglaPhoneticEngine		*banglaEngine;
+	RKCandidate					*rkCandidate;
+	id							client;
 	
-	//find the bundle identifier and then initialize the input method server
-    identifier = [[NSBundle mainBundle] bundleIdentifier];
-    server = [[IMKServer alloc] initWithName:(NSString*)kConnectionName bundleIdentifier:[[NSBundle mainBundle] bundleIdentifier]];
+	NSMutableString				*originalBuffer;
 	
-    //load the bundle explicitly because in this case the input method is a background only application 
-	[NSBundle loadNibNamed:@"MainMenu" owner:[NSApplication sharedApplication]];
+	NSMutableString				*previousText;
+	BOOL						previousTextSet;
+	NSRange						cursorPositionRange;
+	NSMutableString				*intermediateDisplayString;
 	
-	//create the candidate window 
-	//candidates = [[IMKCandidates alloc] initWithServer:server panelType:kIMKSingleColumnScrollingCandidatePanel];
+	NSMutableArray				*convertBufferArray;
 	
-	//finally run everything
-	[[NSApplication sharedApplication] run];
+	NSMutableArray				*hintArray;
+	NSMutableArray				*hintPositionArray;
 	
-	[server release];
-	//[candidates release];
+	NSSet						*alphaKeySet;
 	
-    [pool release];
-    return 0;
+	BOOL						showCandidate;
+	BOOL						converting;
+	
+	BOOL						usingBangla;
+	
+	
 }
+
+- (void) initEngine;
+
+-(BOOL)handleEvent:(NSEvent*)event client:(id)sender;
+
+- (NSArray *) composedStringArray:(id)sender;
+- (NSString *) originalString:(id)sender;
+
+- (void) convertText;
+
+- (void) changeSelectionInDirection:(RKCandidateDirection) direction;
+- (void) deleteLast;
+- (NSPoint) cursorPosition;
+
+- (BOOL) alphaKeyCode:(NSInteger) keyCode;
+
+- (void) reset;
+
+@end

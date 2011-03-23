@@ -1,4 +1,9 @@
-/* Localized versions of Info.plist keys */
+//
+//  RKBorderlessPanel.m
+//  BanglaOnkur
+//
+//  Created by S. M. Raiyan Kabir on 23/02/2011.
+//
 
 /*
  The MIT License
@@ -24,14 +29,25 @@
  THE SOFTWARE.
  */
 
-NSHumanReadableCopyright = "© S. M. Raiyan Kabir., 2011";
-
-/* Include your mode strings here.  See TN2128 for details. */
-
-com.onkur.inputmethod.nostyle = "No Style";
+#import "RKBorderlessPanel.h"
 
 
-CFBundleName = "Bangla - অঙ্কুর";
-CFBundleDisplayName = "Bangla - অঙ্কুর";
-CFBundleShortVersionString = "Bangla - অঙ্কুর version 1.0 build 31";
-CFBundleGetInfoString = "Bangla - অঙ্কুর version 1.0 build 31, Copyright 2011, S. M. Raiyan Kabir.";
+@implementation RKBorderlessPanel
+
+- (id) initWithContentRect: (NSRect) contentRect
+                 styleMask: (NSUInteger) aStyle
+                   backing: (NSBackingStoreType) bufferingType
+                     defer: (BOOL) flag
+{
+	
+	NSLog(@"Panel init called");
+	
+	self = [super initWithContentRect: contentRect
+							styleMask: NSBorderlessWindowMask
+							  backing: bufferingType
+								defer: flag];
+    
+    return self;
+}
+
+@end
