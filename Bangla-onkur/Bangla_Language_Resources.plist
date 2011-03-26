@@ -15,17 +15,6 @@
 				<string>£</string>
 			</array>
 		</array>
-		<key>£</key>
-		<array>
-			<dict/>
-			<string>৳</string>
-			<true/>
-			<true/>
-			<array>
-				<string>£</string>
-				<string>$</string>
-			</array>
-		</array>
 		<key>&apos;</key>
 		<array>
 			<dict>
@@ -191,17 +180,6 @@
 			<true/>
 			<array/>
 		</array>
-		<key>A</key>
-		<array>
-			<dict/>
-			<string>আ</string>
-			<true/>
-			<true/>
-			<array>
-				<string>অ্যা</string>
-				<string>এ্যা</string>
-			</array>
-		</array>
 		<key>a</key>
 		<array>
 			<dict>
@@ -220,6 +198,17 @@
 			<array>
 				<string>্য</string>
 				<string>্যা</string>
+			</array>
+		</array>
+		<key>A</key>
+		<array>
+			<dict/>
+			<string>আ</string>
+			<true/>
+			<true/>
+			<array>
+				<string>অ্যা</string>
+				<string>এ্যা</string>
 			</array>
 		</array>
 		<key>b</key>
@@ -480,6 +469,14 @@
 		<key>j</key>
 		<array>
 			<dict>
+				<key>h</key>
+				<array>
+					<dict/>
+					<string>ঝ</string>
+					<false/>
+					<true/>
+					<array/>
+				</array>
 				<key>j</key>
 				<array>
 					<dict>
@@ -498,14 +495,6 @@
 					<array>
 						<string>জ্জ্ব</string>
 					</array>
-				</array>
-				<key>h</key>
-				<array>
-					<dict/>
-					<string>ঝ</string>
-					<false/>
-					<true/>
-					<array/>
 				</array>
 			</dict>
 			<string>জ</string>
@@ -575,6 +564,7 @@
 					<true/>
 					<true/>
 					<array>
+						<string>ল্য</string>
 						<string>ল্ব</string>
 					</array>
 				</array>
@@ -605,43 +595,6 @@
 			<false/>
 			<false/>
 			<array/>
-		</array>
-		<key>N</key>
-		<array>
-			<dict>
-				<key>g</key>
-				<array>
-					<dict/>
-					<string>ঙ</string>
-					<true/>
-					<false/>
-					<array/>
-				</array>
-				<key>h</key>
-				<array>
-					<dict/>
-					<string>হ্ণ</string>
-					<true/>
-					<true/>
-					<array/>
-				</array>
-				<key>N</key>
-				<array>
-					<dict/>
-					<string>ণ্ণ</string>
-					<true/>
-					<true/>
-					<array>
-						<string>ণ্ব</string>
-					</array>
-				</array>
-			</dict>
-			<string>ণ</string>
-			<false/>
-			<false/>
-			<array>
-				<string>ণ্ব</string>
-			</array>
 		</array>
 		<key>n</key>
 		<array>
@@ -807,38 +760,42 @@
 				<string>ন্ব</string>
 			</array>
 		</array>
-		<key>O</key>
+		<key>N</key>
 		<array>
 			<dict>
-				<key>i</key>
+				<key>g</key>
 				<array>
 					<dict/>
-					<string>ঐ</string>
+					<string>ঙ</string>
+					<true/>
+					<false/>
+					<array/>
+				</array>
+				<key>h</key>
+				<array>
+					<dict/>
+					<string>হ্ণ</string>
 					<true/>
 					<true/>
 					<array/>
 				</array>
-				<key>o</key>
+				<key>N</key>
 				<array>
 					<dict/>
-					<string>ও</string>
+					<string>ণ্ণ</string>
 					<true/>
 					<true/>
-					<array/>
-				</array>
-				<key>u</key>
-				<array>
-					<dict/>
-					<string>ঔ</string>
-					<true/>
-					<true/>
-					<array/>
+					<array>
+						<string>ণ্ব</string>
+					</array>
 				</array>
 			</dict>
-			<string>অ</string>
-			<true/>
-			<true/>
-			<array/>
+			<string>ণ</string>
+			<false/>
+			<false/>
+			<array>
+				<string>ণ্ব</string>
+			</array>
 		</array>
 		<key>o</key>
 		<array>
@@ -869,6 +826,39 @@
 				</array>
 			</dict>
 			<string></string>
+			<true/>
+			<true/>
+			<array/>
+		</array>
+		<key>O</key>
+		<array>
+			<dict>
+				<key>i</key>
+				<array>
+					<dict/>
+					<string>ঐ</string>
+					<true/>
+					<true/>
+					<array/>
+				</array>
+				<key>o</key>
+				<array>
+					<dict/>
+					<string>ও</string>
+					<true/>
+					<true/>
+					<array/>
+				</array>
+				<key>u</key>
+				<array>
+					<dict/>
+					<string>ঔ</string>
+					<true/>
+					<true/>
+					<array/>
+				</array>
+			</dict>
+			<string>অ</string>
 			<true/>
 			<true/>
 			<array/>
@@ -1277,6 +1267,17 @@
 			<true/>
 			<array>
 				<string>ঞ</string>
+			</array>
+		</array>
+		<key>£</key>
+		<array>
+			<dict/>
+			<string>৳</string>
+			<true/>
+			<true/>
+			<array>
+				<string>£</string>
+				<string>$</string>
 			</array>
 		</array>
 	</dict>

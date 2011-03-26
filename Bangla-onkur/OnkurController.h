@@ -86,4 +86,6 @@ typedef NSInteger RKCandidateDirection;
 
 - (void) reset;
 
+- (id) textClient;
+
 @end

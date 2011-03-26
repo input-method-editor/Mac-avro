@@ -388,7 +388,7 @@
 	
 }
 
-- (id) client {
+- (id) textClient {
 	return client;
 }
 
