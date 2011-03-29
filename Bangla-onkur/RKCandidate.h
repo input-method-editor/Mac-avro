@@ -43,7 +43,7 @@
 	
 	NSMutableIndexSet			*selectionIndex;
 	
-	BOOL						shouldSetFont;
+	//BOOL						shouldSetFont;
 	
 	NSFont						*candidateFont;
 	

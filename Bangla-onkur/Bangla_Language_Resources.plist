@@ -308,7 +308,25 @@
 				</array>
 				<key>h</key>
 				<array>
-					<dict/>
+					<dict>
+						<key>d</key>
+						<array>
+							<dict>
+								<key>h</key>
+								<array>
+									<dict/>
+									<string>ধ্য</string>
+									<true/>
+									<true/>
+									<array/>
+								</array>
+							</dict>
+							<string>ধদ</string>
+							<false/>
+							<false/>
+							<array/>
+						</array>
+					</dict>
 					<string>ধ</string>
 					<false/>
 					<false/>
@@ -522,6 +540,7 @@
 					<false/>
 					<false/>
 					<array>
+						<string>ক্ষ</string>
 						<string>খ্য</string>
 					</array>
 				</array>

@@ -45,7 +45,7 @@
 		_client = client;
 		selectionIndex = [[NSMutableIndexSet alloc] initWithIndex:0];
 		
-		shouldSetFont = NO;
+		//shouldSetFont = NO;
 		
 		if ([self isWindowLoaded]) {
 			
@@ -57,11 +57,12 @@
 			
 			if (operatingSystemMajorVersion > 6) {
 				candidateFont = [NSFont fontWithName:@"Ekushey-Lohit-Normal" size:18];
-				shouldSetFont = YES;
-			}
+			} else {
+                candidateFont = [NSFont fontWithName:@"Bangla-Sangam-MN-Regular" size:18];
+            }
 			
 			NSLog(@"System Major Version: %ld", operatingSystemMajorVersion);
-			NSLog(@"Should Set Font: %i", shouldSetFont);
+			//NSLog(@"Should Set Font: %i", shouldSetFont);
 		}
 		
 	}
@@ -135,9 +136,7 @@
 		
 		[option setStringValue:[optionsArray objectAtIndex:i]];
 		
-		if (shouldSetFont) {
-			[option setFont:candidateFont]; 
-		}
+        [option setFont:candidateFont]; 
 		
 		float optionWidth = [option cellSize].width;
 		
