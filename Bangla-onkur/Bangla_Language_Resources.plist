@@ -428,6 +428,7 @@
 					<false/>
 					<false/>
 					<array>
+						<string>ঘ্য</string>
 						<string>ঘ্ব</string>
 					</array>
 				</array>
@@ -714,16 +715,7 @@
 				</array>
 				<key>n</key>
 				<array>
-					<dict>
-						<key>&quot;</key>
-						<array>
-							<dict/>
-							<string>ন্ব</string>
-							<true/>
-							<true/>
-							<array/>
-						</array>
-					</dict>
+					<dict/>
 					<string>ন্ন</string>
 					<true/>
 					<true/>
@@ -731,6 +723,7 @@
 						<string>ন্য</string>
 						<string>হ্ন</string>
 						<string>হ্ণ</string>
+						<string>ন্ব</string>
 					</array>
 				</array>
 				<key>t</key>
@@ -962,16 +955,7 @@
 			<dict>
 				<key>a</key>
 				<array>
-					<dict>
-						<key>e</key>
-						<array>
-							<dict/>
-							<string>র‍্য</string>
-							<false/>
-							<true/>
-							<array/>
-						</array>
-					</dict>
+					<dict/>
 					<string>রা</string>
 					<false/>
 					<true/>
@@ -1004,6 +988,7 @@
 			<true/>
 			<array>
 				<string>হ্র</string>
+				<string>র‍্য</string>
 			</array>
 		</array>
 		<key>S</key>
@@ -1184,8 +1169,8 @@
 							<true/>
 							<true/>
 							<array>
-								<string>থ্য</string>
 								<string>ত্থ</string>
+								<string>থ্য</string>
 							</array>
 						</array>
 					</dict>

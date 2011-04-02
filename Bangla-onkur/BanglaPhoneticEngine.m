@@ -548,12 +548,16 @@
 
 - (NSString *) initAndAfterKaarForm:(NSString *) string {
 	
-	unichar character = [string characterAtIndex:0];
+	unichar characters[20];
+    [string getCharacters:characters];
 	
-	if (character >= 0x9BE && character <= 0x9CC) {
-		character -= 0x38;
+	if (characters[0] >= 0x9BE && characters[0] <= 0x9CC) {
+		characters[0] -= 0x38;
 	}
-	return [NSString stringWithCharacters:&character length:1];
+    
+    NSString *returnString = [NSString stringWithCharacters:characters length:[string length]];
+    
+	return returnString;
 }
 
 - (NSString *) initAndAfterKaarShareOForm {

@@ -261,7 +261,7 @@
             NSLog(@"originalBuffer: %@", originalBuffer);
             
 			[self convertText];
-            NSLog(@"no of options in controller: %ld", [convertBufferArray count]);
+            NSLog(@"no of options in controller: %lu", [convertBufferArray count]);
 			
 			[rkCandidate updateCandidate];
 			[rkCandidate setCandidate];
@@ -305,7 +305,7 @@
         
 		convertBufferArray = [banglaEngine convert:originalBuffer WithHint:hintArray];
 		
-        NSLog(@"options in ConvrtText: %ld", [convertBufferArray count]);
+        NSLog(@"options in ConvrtText: %lu", [convertBufferArray count]);
         
 		if ([banglaEngine areAlternatives]) {
 			[hintPositionArray addObject:[NSNumber numberWithUnsignedInteger:[originalBuffer length]]];

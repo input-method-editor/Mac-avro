@@ -47,7 +47,7 @@
 		
 		//shouldSetFont = NO;
 		
-		if ([self isWindowLoaded]) {
+		//if ([self isWindowLoaded]) {
 			
 			NSArray *operatingSystemVersionStringComponents = [[[NSProcessInfo processInfo] operatingSystemVersionString] componentsSeparatedByString:@" "];
 			
@@ -56,14 +56,14 @@
 			NSInteger operatingSystemMajorVersion = [[operatingSystemVersionComponents objectAtIndex:1] intValue];
 			
 			if (operatingSystemMajorVersion > 6) {
-				candidateFont = [NSFont fontWithName:@"Ekushey-Lohit-Normal" size:18];
+				candidateFont = [NSFont fontWithName:@"Bangla Sangam MN" size:18];
 			} else {
-                candidateFont = [NSFont fontWithName:@"Bangla-Sangam-MN-Regular" size:18];
+                candidateFont = [NSFont fontWithName:@"Ekushey Lohit Normal" size:18];
             }
 			
 			NSLog(@"System Major Version: %ld", operatingSystemMajorVersion);
 			//NSLog(@"Should Set Font: %i", shouldSetFont);
-		}
+		//}
 		
 	}
 	
@@ -82,15 +82,6 @@
 	[selectionIndex addIndex:0];
 }
 
-
-/*- (void)windowDidLoad {
-	
-	
-	//[candidatePanel setBecomesKeyOnlyIfNeeded:YES];
-	//[candidatePanel setLevel:NSPopUpMenuWindowLevel];
-	//[candidateOptions setAllowsColumnSelection:NO];
-	//[candidateOptions selectRowIndexes:selectionIndex byExtendingSelection:NO];
-}*/
 
 #pragma mark -
 #pragma mark Candidate Window Methods
@@ -129,7 +120,7 @@
 	
 	float width = 0.0, height = 0.0;
     
-    NSLog(@"no of options: %ld", [optionsArray count]);
+    NSLog(@"no of options: %lu", [optionsArray count]);
 	
 	for (int i = 0; i < [optionsArray count]; i++) {
 		NSCell *option = [column dataCellForRow:i];
