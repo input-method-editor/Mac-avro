@@ -33,5 +33,5 @@ com.onkur.inputmethod.nostyle = "No Style";
 
 CFBundleName = "Bangla - অঙ্কুর";
 CFBundleDisplayName = "Bangla - অঙ্কুর";
-CFBundleShortVersionString = "Bangla - অঙ্কুর version 1.0 build 39";
-CFBundleGetInfoString = "Bangla - অঙ্কুর version 1.0 build 39, Copyright 2011, S. M. Raiyan Kabir.";
+CFBundleShortVersionString = "Bangla - অঙ্কুর version 1.1 build 43";
+CFBundleGetInfoString = "Bangla - অঙ্কুর version 1.1 build 43, Copyright 2011, S. M. Raiyan Kabir.";

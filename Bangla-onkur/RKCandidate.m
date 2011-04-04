@@ -57,11 +57,13 @@
 			
 			if (operatingSystemMajorVersion > 6) {
 				candidateFont = [NSFont fontWithName:@"Bangla Sangam MN" size:18];
+                NSLog(@"Font is Bangla Sangam MN");
 			} else {
                 candidateFont = [NSFont fontWithName:@"Ekushey Lohit Normal" size:18];
+                NSLog(@"Font is Ekushey Lohit Normal");
             }
 			
-			NSLog(@"System Major Version: %ld", operatingSystemMajorVersion);
+			NSLog(@"System Major Version: %d", operatingSystemMajorVersion);
 			//NSLog(@"Should Set Font: %i", shouldSetFont);
 		//}
 		
@@ -118,9 +120,9 @@
 	
 	NSTableColumn *column = [[candidateOptions tableColumns] objectAtIndex:0];
 	
-	float width = 0.0, height = 0.0;
+	CGFloat width = 0, height = 0;
     
-    NSLog(@"no of options: %lu", [optionsArray count]);
+    NSLog(@"no of options: %u", [optionsArray count]);
 	
 	for (int i = 0; i < [optionsArray count]; i++) {
 		NSCell *option = [column dataCellForRow:i];
@@ -129,7 +131,7 @@
 		
         [option setFont:candidateFont]; 
 		
-		float optionWidth = [option cellSize].width;
+		CGFloat optionWidth = [option cellSize].width;
 		
 		width = (optionWidth > width)? optionWidth : width;
 		height = [option cellSize].height + 2;
@@ -187,7 +189,7 @@ objectValueForTableColumn:(NSTableColumn *)aTableColumn
 	
 	if (currentSelection > 0) {
 		currentSelection--;
-		NSLog(@"currentSelection is: %ld", currentSelection);
+		NSLog(@"currentSelection is: %d", currentSelection);
 		[selectionIndex removeAllIndexes];
 		[selectionIndex addIndex:currentSelection];
 		[candidateOptions selectRowIndexes:selectionIndex byExtendingSelection:NO];
@@ -200,7 +202,7 @@ objectValueForTableColumn:(NSTableColumn *)aTableColumn
 	
 	if (currentSelection < [optionsArray count] - 1) {
 		currentSelection++;
-		NSLog(@"currentSelection is: %ld", currentSelection);
+		NSLog(@"currentSelection is: %d", currentSelection);
 		[selectionIndex removeAllIndexes];
 		[selectionIndex addIndex:currentSelection];
 		[candidateOptions selectRowIndexes:selectionIndex byExtendingSelection:NO];

@@ -285,6 +285,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bangla-onkur/Bangla-onkur-Prefix.pch";
+				GCC_VERSION = 4.2;
 				INFOPLIST_FILE = "Bangla-onkur/Bangla-onkur-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +302,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bangla-onkur/Bangla-onkur-Prefix.pch";
+				GCC_VERSION = 4.2;
 				INFOPLIST_FILE = "Bangla-onkur/Bangla-onkur-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";

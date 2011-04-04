@@ -265,6 +265,34 @@
 								<string>ছ্ব</string>
 							</array>
 						</array>
+						<key>c</key>
+						<array>
+							<dict>
+								<key>h</key>
+								<array>
+									<dict>
+										<key>h</key>
+										<array>
+											<dict/>
+											<string>চ্ছ</string>
+											<true/>
+											<false/>
+											<array>
+												<string>চ্ছ্ব</string>
+											</array>
+										</array>
+									</dict>
+									<string>চ্চ</string>
+									<true/>
+									<false/>
+									<array/>
+								</array>
+							</dict>
+							<string>চক</string>
+							<true/>
+							<true/>
+							<array/>
+						</array>
 					</dict>
 					<string>চ</string>
 					<false/>
@@ -987,6 +1015,7 @@
 			<false/>
 			<true/>
 			<array>
+				<string>র্</string>
 				<string>হ্র</string>
 				<string>র‍্য</string>
 			</array>
@@ -1060,8 +1089,8 @@
 						</array>
 					</dict>
 					<string>স</string>
-					<true/>
-					<true/>
+					<false/>
+					<false/>
 					<array>
 						<string>স্ব</string>
 						<string>স্ম</string>
@@ -1125,6 +1154,7 @@
 			<false/>
 			<false/>
 			<array>
+				<string>ট্য</string>
 				<string>ট্ব</string>
 			</array>
 		</array>
