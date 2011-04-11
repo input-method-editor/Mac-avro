@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		274A6DED134B0C61001D5DFC /* Lohit_14-04-2007.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 274A6DEC134B0C61001D5DFC /* Lohit_14-04-2007.ttf */; };
 		2755E2EE1339E18C004F9CE9 /* BanglaPhoneticEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2755E2ED1339E18C004F9CE9 /* BanglaPhoneticEngine.m */; };
 		275CCAE613399448002072D5 /* Bangla_Language_Resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 275CCAE513399448002072D5 /* Bangla_Language_Resources.plist */; };
 		27D82B2B133BF45100B0F905 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 27D82B2A133BF45100B0F905 /* License.rtf */; };
@@ -31,7 +30,6 @@
 		270B4A57134D04CA005CCBBD /* RKAboutPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAboutPanel.m; sourceTree = "<group>"; };
 		271AAA87134EE91A005C7F5E /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		271AAA88134EE91A005C7F5E /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		274A6DEC134B0C61001D5DFC /* Lohit_14-04-2007.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lohit_14-04-2007.ttf"; sourceTree = "<group>"; };
 		2755E2EC1339E18C004F9CE9 /* BanglaPhoneticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanglaPhoneticEngine.h; sourceTree = "<group>"; };
 		2755E2ED1339E18C004F9CE9 /* BanglaPhoneticEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanglaPhoneticEngine.m; sourceTree = "<group>"; };
 		275CCAE513399448002072D5 /* Bangla_Language_Resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bangla_Language_Resources.plist; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 		27FE2E26133979CD0095CCE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				274A6DEC134B0C61001D5DFC /* Lohit_14-04-2007.ttf */,
 				27D82B2A133BF45100B0F905 /* License.rtf */,
 				275CCAE513399448002072D5 /* Bangla_Language_Resources.plist */,
 				27FE2E5313397B140095CCE5 /* Onkur.icns */,
@@ -216,7 +213,6 @@
 				27FE2E65133980910095CCE5 /* RKCandidate.xib in Resources */,
 				275CCAE613399448002072D5 /* Bangla_Language_Resources.plist in Resources */,
 				27D82B2B133BF45100B0F905 /* License.rtf in Resources */,
-				274A6DED134B0C61001D5DFC /* Lohit_14-04-2007.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

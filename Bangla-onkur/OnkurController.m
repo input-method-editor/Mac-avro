@@ -393,10 +393,10 @@
 }
 
 
--(NSMenu*)menu
+/*-(NSMenu*)menu
 {
 	return [[NSApp delegate] menu];
-}
+}*/
 
 - (void) reset {
 	
