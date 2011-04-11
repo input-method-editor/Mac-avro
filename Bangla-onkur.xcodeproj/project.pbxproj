@@ -26,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		270B4A53134CFF08005CCBBD /* RKAboutPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKAboutPanel.xib; sourceTree = "<group>"; };
+		270B4A56134D04CA005CCBBD /* RKAboutPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKAboutPanel.h; sourceTree = "<group>"; };
+		270B4A57134D04CA005CCBBD /* RKAboutPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKAboutPanel.m; sourceTree = "<group>"; };
+		271AAA87134EE91A005C7F5E /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		271AAA88134EE91A005C7F5E /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		274A6DEC134B0C61001D5DFC /* Lohit_14-04-2007.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lohit_14-04-2007.ttf"; sourceTree = "<group>"; };
 		2755E2EC1339E18C004F9CE9 /* BanglaPhoneticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanglaPhoneticEngine.h; sourceTree = "<group>"; };
 		2755E2ED1339E18C004F9CE9 /* BanglaPhoneticEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanglaPhoneticEngine.m; sourceTree = "<group>"; };
@@ -68,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27036FD7134C4EDB00FEF9F4 /* nib Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FE2E5F133980910095CCE5 /* RKCandidate.xib */,
+				27FE2E34133979CD0095CCE5 /* MainMenu.xib */,
+				270B4A53134CFF08005CCBBD /* RKAboutPanel.xib */,
+			);
+			name = "nib Files";
+			sourceTree = "<group>";
+		};
 		27FE2E10133979CC0095CCE5 = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +131,13 @@
 				27FE2E5C133980910095CCE5 /* RKBorderlessPanel.m */,
 				27FE2E5D133980910095CCE5 /* RKCandidate.h */,
 				27FE2E5E133980910095CCE5 /* RKCandidate.m */,
-				27FE2E5F133980910095CCE5 /* RKCandidate.xib */,
 				27FE2E31133979CD0095CCE5 /* Bangla_onkurAppDelegate.h */,
 				27FE2E32133979CD0095CCE5 /* Bangla_onkurAppDelegate.m */,
-				27FE2E34133979CD0095CCE5 /* MainMenu.xib */,
+				270B4A56134D04CA005CCBBD /* RKAboutPanel.h */,
+				270B4A57134D04CA005CCBBD /* RKAboutPanel.m */,
+				271AAA87134EE91A005C7F5E /* AppController.h */,
+				271AAA88134EE91A005C7F5E /* AppController.m */,
+				27036FD7134C4EDB00FEF9F4 /* nib Files */,
 				27FE2E26133979CD0095CCE5 /* Supporting Files */,
 			);
 			path = "Bangla-onkur";

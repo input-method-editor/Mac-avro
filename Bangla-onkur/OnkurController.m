@@ -107,7 +107,7 @@
 	
 	NSUInteger modifier = [event modifierFlags];
 	
-	NSLog(@"Modifier: %lu", modifier);
+	NSLog(@"Modifier: %u", modifier);
 	
 	if (modifier & NSCommandKeyMask) {
 		
@@ -212,7 +212,7 @@
 		
 		NSInteger selectionLength = [client selectedRange].length;
 		
-		NSLog(@"selectionLength: %ld, location: %lu", selectionLength, [client selectedRange].location);
+		NSLog(@"selectionLength: %d, location: %u", selectionLength, [client selectedRange].location);
 		
 		if ([originalBuffer length] != 0) {
 			[self deleteLast];
@@ -261,7 +261,7 @@
             NSLog(@"originalBuffer: %@", originalBuffer);
             
 			[self convertText];
-            NSLog(@"no of options in controller: %lu", [convertBufferArray count]);
+            NSLog(@"no of options in controller: %u", [convertBufferArray count]);
 			
 			[rkCandidate updateCandidate];
 			[rkCandidate setCandidate];
@@ -305,7 +305,7 @@
         
 		convertBufferArray = [banglaEngine convert:originalBuffer WithHint:hintArray];
 		
-        NSLog(@"options in ConvrtText: %lu", [convertBufferArray count]);
+        NSLog(@"options in ConvrtText: %u", [convertBufferArray count]);
         
 		if ([banglaEngine areAlternatives]) {
 			[hintPositionArray addObject:[NSNumber numberWithUnsignedInteger:[originalBuffer length]]];
@@ -392,6 +392,11 @@
 	return client;
 }
 
+
+-(NSMenu*)menu
+{
+	return [[NSApp delegate] menu];
+}
 
 - (void) reset {
 	

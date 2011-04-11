@@ -33,7 +33,7 @@
 
 @interface Bangla_onkurAppDelegate : NSObject {
 
-    IBOutlet NSMenu*				_menu;
+    IBOutlet NSMenu* _menu;
 }
 
 -(NSMenu*)menu;
