@@ -34,7 +34,7 @@
 		2755E2ED1339E18C004F9CE9 /* BanglaPhoneticEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanglaPhoneticEngine.m; sourceTree = "<group>"; };
 		275CCAE513399448002072D5 /* Bangla_Language_Resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bangla_Language_Resources.plist; sourceTree = "<group>"; };
 		27D82B2A133BF45100B0F905 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
-		27FE2E1B133979CD0095CCE5 /* Bangla-onkur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bangla-onkur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FE2E1B133979CD0095CCE5 /* Bangla-onkur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Bangla-onkur.app"; path = "/Users/raiyan/Dropbox/Bangla-onkur/build/Release/Bangla-onkur.app"; sourceTree = "<absolute>"; };
 		27FE2E1F133979CD0095CCE5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		27FE2E22133979CD0095CCE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		27FE2E23133979CD0095CCE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -93,7 +93,6 @@
 		27FE2E1C133979CD0095CCE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27FE2E1B133979CD0095CCE5 /* Bangla-onkur.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
